@@ -18,4 +18,8 @@ public class DemoController {
     public String first(){
         return "第一个版本";
     }
+    @GetMapping("/2")
+    public String second(){
+        return "第二个版本";
+    }
 }
