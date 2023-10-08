@@ -18,4 +18,9 @@ public class DemoController {
     public String first(){
         return "第一个版本";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "分支";
+    }
 }
